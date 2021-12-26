@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,21 +20,22 @@
       <nav id="main-nav">
         <img src="img/logo.png" alt="My Portfolio" id="logo" />
         <ul>
-          <li><a href="index.html" class="current">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="work.html">Work</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.php" class="current">Home</a></li>
+          <li><a href="about.php">About</a></li>
+          <li><a href="work.php">Work</a></li>
+          <li><a href="contact.php">Contact</a></li>
+          <li><a href="sl.php">Signup/Login</a></li>
         </ul>
       </nav>
       <div class="header-content">
         <h1>
-          I Am Subhankar The
-          <span class="txt-type" data-wait="3000" data-words='["Web Devoloper", "Designer", "Android Devoloper"]'></span>
+          I am Subhankar the
+          <span class="txt-type" data-wait="3000" data-words='["Web Devoloper", "Designer", "Programmer"]'></span>
         </h1>
         <p class="lead">
           I specialize in Web Design and c++ programming
         </p>
-        <a href="work.html" class="btn-light">View My Work</a>
+        <a href="work.php" class="btn-light">View My Work</a>
       </div>
     </div>
   </header>

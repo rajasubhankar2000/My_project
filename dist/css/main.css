@@ -198,12 +198,14 @@ img {
   justify-content: space-between;
   padding-top: 1rem; }
   #main-nav ul {
-    display: flex; }
+    display: flex ; 
+    
+  }
   #main-nav li {
-    padding: 1rem 1.5rem; }
+    padding: 1rem 1.8rem; }
   #main-nav a {
     text-decoration: none;
-    color: rgb(216, 27, 27);
+    color: rgb(134, 21, 21);
     text-transform: uppercase;
     border-bottom: 3px transparent solid;
     padding-bottom: 0.5rem;
@@ -472,9 +474,30 @@ img {
       height: 5rem; } }
 
 @media (max-height: 580px) {
-  #header-home .header-content {
-    padding-top: 3rem; } }
+  
+      #main-nav li {
+        padding: 1rem 1rem; }
+      #main-nav a {
+        text-decoration: none;
+        color: rgb(134, 21, 21);
+        text-transform: uppercase;
+        border-bottom: 3px transparent solid;
+        padding-bottom: 0.5rem;
+        transition: border-color 0.5s; }
+        #main-nav a:hover {
+          border-color: rgb(19, 18, 18); }
+        #main-nav a.current {
+          border-color: #1a1918; }
+    
+  }
 
 @media (max-height: 330px) {
   #header-home .header-content h1 {
-    font-size: 2rem; } }
+    font-size: 2rem; }
+     }
+
+
+
+    
+
+
